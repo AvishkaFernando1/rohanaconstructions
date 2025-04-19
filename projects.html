@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - Rohana Construction</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ROHANA<span>CONSTRUCTION</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1>Our Projects</h1>
+                <p>Explore our portfolio of exceptional construction projects</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+            <!--    <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="industrial">Industrial</button>
+                <button class="filter-btn" data-filter="renovation">Renovation</button>--> 
+            </div>
+
+            <div class="projects-grid">
+                <!-- Commercial Projects -->
+                <div class="project-item commercial">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Azure Tower">
+                        <div class="project-overlay">
+                            <a href="#project-azure" class="view-project">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Azure Tower</h3>
+                        <p>Commercial Office Complex</p>
+                        <span class="completion-date">Completed: June 2022</span>
+                    </div>
+                </div>
+
+                <div class="project-item commercial">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1577415124269-fc1140a69e91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Skyline Plaza">
+                        <div class="project-overlay">
+                            <a href="#project-skyline" class="view-project">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Skyline Plaza</h3>
+                        <p>Shopping Mall & Entertainment Center</p>
+                        <span class="completion-date">Completed: March 2023</span>
+                    </div>
+                </div>
+
+                <!-- Residential Projects -->
+                <div class="project-item residential">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Harmony Heights">
+                        <div class="project-overlay">
+                            <a href="#project-harmony" class="view-project">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Harmony Heights</h3>
+                        <p>Luxury Residential Complex</p>
+                        <span class="completion-date">Completed: September 2022</span>
+                    </div>
+                </div>
+
+                <div class="project-item residential">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Serene Villas">
+                        <div class="project-overlay">
+                            <a href="#project-serene" class="view-project">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Serene Villas</h3>
+                        <p>Exclusive Gated Community</p>
+                        <span class="completion-date">Completed: January 2023</span>
+                    </div>
+                </div>
+
+                <!-- Industrial Projects -->
+                <div class="project-item industrial">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Nexus Industrial Park">
+                        <div class="project-overlay">
+                            <a href="#project-nexus" class="view-project">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Nexus Industrial Park</h3>
+                        <p>Modern Manufacturing Facility</p>
+                        <span class="completion-date">Completed: November 2022</span>
+                    </div>
+                </div>
+
+                <div class="project-item industrial">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80" alt="Quantum Logistics Center">
+                        <div class="project-overlay">
+                            <a href="#project-quantum" class="view-project">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Quantum Logistics Center</h3>
+                        <p>Warehouse & Distribution Hub</p>
+                        <span class="completion-date">Completed: April 2023</span>
+                    </div>
+                </div>
+
+                <!-- Renovation Projects -->
+                <div class="project-item renovation">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1574362848149-11496d93a7c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1084&q=80" alt="Heritage Hotel Renovation">
+                        <div class="project-overlay">
+                            <a href="#project-heritage" class="view-project">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Heritage Hotel Renovation</h3>
+                        <p>Historical Building Restoration</p>
+                        <span class="completion-date">Completed: July 2022</span>
+                    </div>
+                </div>
+
+                <div class="project-item renovation">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Urban Loft Conversion">
+                        <div class="project-overlay">
+                            <a href="#project-urban" class="view-project">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Urban Loft Conversion</h3>
+                        <p>Warehouse to Residential Transformation</p>
+                        <span class="completion-date">Completed: February 2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-details">
+        <div class="container">
+            <!-- Azure Tower Project Details -->
+            <div id="project-azure" class="project-detail-item">
+                <div class="close-detail">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-images">
+                        <div class="main-image">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Azure Tower">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Azure Tower Interior">
+                            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Azure Tower Office Space">
+                            <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Azure Tower Lobby">
+                        </div>
+                    </div>
+                    <div class="detail-info">
+                        <h2>Azure Tower</h2>
+                        <p class="detail-category">Commercial Office Complex</p>
+                        <div class="detail-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Downtown Business District</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Completed: June 2022</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>Area: 45,000 sq ft</span>
+                            </div>
+                        </div>
+                        <div class="detail-description">
+                            <h3>Project Overview</h3>
+                            <p>Azure Tower is a state-of-the-art commercial office complex designed to provide a premium workspace environment for modern businesses. The 15-story building features floor-to-ceiling windows, offering panoramic city views and abundant natural light.</p>
+                            
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>LEED Gold certified sustainable design</li>
+                                <li>Smart building technology with automated climate control</li>
+                                <li>Rooftop garden and recreational space</li>
+                                <li>Underground parking with EV charging stations</li>
+                                <li>High-speed elevators and advanced security systems</li>
+                            </ul>
+                            
+                            <h3>Construction Highlights</h3>
+                            <p>The construction utilized innovative techniques including prefabricated structural elements to reduce on-site construction time by 30%. The building's distinctive curved glass facade required specialized installation methods and custom-manufactured panels.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skyline Plaza Project Details -->
+            <div id="project-skyline" class="project-detail-item">
+                <div class="close-detail">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-images">
+                        <div class="main-image">
+                            <img src="https://images.unsplash.com/photo-1577415124269-fc1140a69e91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Skyline Plaza">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Skyline Plaza Interior">
+                            <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Skyline Plaza Food Court">
+                            <img src="https://images.unsplash.com/photo-1567449303078-57ad995bd17a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Skyline Plaza Exterior Night">
+                        </div>
+                    </div>
+                    <div class="detail-info">
+                        <h2>Skyline Plaza</h2>
+                        <p class="detail-category">Shopping Mall & Entertainment Center</p>
+                        <div class="detail-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Central Shopping District</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Completed: March 2023</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>Area: 75,000 sq ft</span>
+                            </div>
+                        </div>
+                        <div class="detail-description">
+                            <h3>Project Overview</h3>
+                            <p>Skyline Plaza is a premier shopping and entertainment destination featuring over 150 retail outlets, a multiplex cinema, and a diverse food court. The complex was designed to create an immersive shopping experience with spacious walkways and natural lighting.</p>
+                            
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Multi-level retail space with premium brand outlets</li>
+                                <li>12-screen cinema complex with IMAX technology</li>
+                                <li>Interactive digital directories and smart parking system</li>
+                                <li>Central atrium with seasonal displays and events space</li>
+                                <li>Energy-efficient lighting and climate control systems</li>
+                            </ul>
+                            
+                            <h3>Construction Highlights</h3>
+                            <p>The construction of Skyline Plaza incorporated a unique steel and glass dome structure that required specialized engineering solutions. The project utilized BIM (Building Information Modeling) throughout the construction process to coordinate complex systems integration and minimize conflicts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Harmony Heights Project Details -->
+            <div id="project-harmony" class="project-detail-item">
+                <div class="close-detail">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-images">
+                        <div class="main-image">
+                            <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Harmony Heights">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Harmony Heights Interior">
+                            <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Harmony Heights Pool Area">
+                            <img src="https://images.unsplash.com/photo-1560185008-a33f5c7b1844?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Harmony Heights Garden">
+                        </div>
+                    </div>
+                    <div class="detail-info">
+                        <h2>Harmony Heights</h2>
+                        <p class="detail-category">Luxury Residential Complex</p>
+                        <div class="detail-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Hillside Estates, North District</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Completed: September 2022</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>Area: 32,000 sq ft</span>
+                            </div>
+                        </div>
+                        <div class="detail-description">
+                            <h3>Project Overview</h3>
+                            <p>Harmony Heights is an exclusive residential complex featuring 48 luxury apartments designed for modern living. The development emphasizes harmony with nature, incorporating extensive green spaces and panoramic views of the surrounding landscape.</p>
+                            
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Spacious 2, 3, and 4-bedroom apartments with premium finishes</li>
+                                <li>Infinity pool and landscaped gardens</li>
+                                <li>Fully equipped fitness center and spa facilities</li>
+                                <li>Smart home technology in all units</li>
+                                <li>24/7 security and concierge services</li>
+                            </ul>
+                            
+                            <h3>Construction Highlights</h3>
+                            <p>The construction of Harmony Heights utilized sustainable building practices, including locally sourced materials and energy-efficient systems. The terraced design required careful structural planning to maximize views while ensuring stability on the hillside location.</p>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Serene Villas Project Details -->
+            <div id="project-serene" class="project-detail-item">
+                <div class="close-detail">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-images">
+                        <div class="main-image">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Serene Villas">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Serene Villas Interior">
+                            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Serene Villas Kitchen">
+                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Serene Villas Backyard">
+                        </div>
+                    </div>
+                    <div class="detail-info">
+                        <h2>Serene Villas</h2>
+                        <p class="detail-category">Exclusive Gated Community</p>
+                        <div class="detail-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Lakeside Estates, East County</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Completed: January 2023</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>Area: 25 acres (24 villas)</span>
+                            </div>
+                        </div>
+                        <div class="detail-description">
+                            <h3>Project Overview</h3>
+                            <p>Serene Villas is an exclusive gated community of 24 luxury villas set in a tranquil lakeside environment. Each villa is designed with a unique architectural character while maintaining a cohesive community aesthetic.</p>
+                            
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Custom-designed villas ranging from 3,500 to 5,000 sq ft</li>
+                                <li>Private gardens and swimming pools for each villa</li>
+                                <li>Community clubhouse with recreational facilities</li>
+                                <li>Lakefront promenade and nature trails</li>
+                                <li>Advanced security systems with controlled access</li>
+                            </ul>
+                            
+                            <h3>Construction Highlights</h3>
+                            <p>The construction of Serene Villas prioritized environmental preservation, with careful site planning to protect existing trees and natural features. Each villa was built using high-quality materials and craftsmanship, with attention to detail in both exterior and interior finishes.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+    
+
+    <script src="script.js"></script>
+    <script src="projects.js"></script>
+</body>
+</html>
+
+<!-- Nexus Industrial Park Project Details -->
+            <div id="project-nexus" class="project-detail-item">
+                <div class="close-detail">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-images">
+                        <div class="main-image">
+                            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Nexus Industrial Park">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Nexus Industrial Interior">
+                            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Nexus Industrial Equipment">
+                            <img src="https://images.unsplash.com/photo-1581092335397-9583eb92d232?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Nexus Industrial Exterior">
+                        </div>
+                    </div>
+                    <div class="detail-info">
+                        <h2>Nexus Industrial Park</h2>
+                        <p class="detail-category">Modern Manufacturing Facility</p>
+                        <div class="detail-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Industrial Zone, West Region</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Completed: November 2022</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>Area: 120,000 sq ft</span>
+                            </div>
+                        </div>
+                        <div class="detail-description">
+                            <h3>Project Overview</h3>
+                            <p>Nexus Industrial Park is a state-of-the-art manufacturing facility designed to meet the demands of modern industrial operations. The complex includes production areas, warehousing, and administrative offices in an integrated layout.</p>
+                            
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>High-bay manufacturing spaces with overhead crane systems</li>
+                                <li>Advanced ventilation and air filtration systems</li>
+                                <li>Energy-efficient building envelope and systems</li>
+                                <li>Dedicated loading docks with logistics management area</li>
+                                <li>Employee amenities including cafeteria and recreation spaces</li>
+                            </ul>
+                            
+                            <h3>Construction Highlights</h3>
+                            <p>The construction of Nexus Industrial Park utilized pre-engineered building systems for rapid deployment while maintaining structural integrity. Special attention was given to floor specifications to support heavy machinery and equipment, with reinforced concrete designed for specific load requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quantum Logistics Center Project Details -->
+            <div id="project-quantum" class="project-detail-item">
+                <div class="close-detail">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-images">
+                        <div class="main-image">
+                            <img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80" alt="Quantum Logistics Center">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Quantum Logistics Interior">
+                            <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Quantum Logistics Systems">
+                            <img src="https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Quantum Logistics Aerial">
+                        </div>
+                    </div>
+                    <div class="detail-info">
+                        <h2>Quantum Logistics Center</h2>
+                        <p class="detail-category">Warehouse & Distribution Hub</p>
+                        <div class="detail-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Highway Junction, South District</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Completed: April 2023</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>Area: 200,000 sq ft</span>
+                            </div>
+                        </div>
+                        <div class="detail-description">
+                            <h3>Project Overview</h3>
+                            <p>Quantum Logistics Center is a cutting-edge distribution facility designed to optimize supply chain operations. The center features automated systems and strategic layout planning to maximize efficiency in goods handling and distribution.</p>
+                            
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Automated storage and retrieval systems</li>
+                                <li>Cross-docking facilities with 40 loading bays</li>
+                                <li>Advanced inventory management technology</li>
+                                <li>Climate-controlled sections for specialized storage</li>
+                                <li>Solar panel array covering 80% of roof area</li>
+                            </ul>
+                            
+                            <h3>Construction Highlights</h3>
+                            <p>The construction of Quantum Logistics Center incorporated large clear-span structures to maximize usable floor space. The project was completed in phases to allow for early occupancy of completed sections while construction continued in other areas, minimizing business disruption for the client.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Heritage Hotel Renovation Project Details -->
+            <div id="project-heritage" class="project-detail-item">
+                <div class="close-detail">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-images">
+                        <div class="main-image">
+                            <img src="https://images.unsplash.com/photo-1574362848149-11496d93a7c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1084&q=80" alt="Heritage Hotel Renovation">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Heritage Hotel Lobby">
+                            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Heritage Hotel Room">
+                            <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" alt="Heritage Hotel Restaurant">
+                        </div>
+                    </div>
+                    <div class="detail-info">
+                        <h2>Heritage Hotel Renovation</h2>
+                        <p class="detail-category">Historical Building Restoration</p>
+                        <div class="detail-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Old Town District, City Center</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Completed: July 2022</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>Area: 35,000 sq ft</span>
+                            </div>
+                        </div>
+                        <div class="detail-description">
+                            <h3>Project Overview</h3>
+                            <p>The Heritage Hotel Renovation project involved the careful restoration of a 120-year-old historic building while converting it into a luxury boutique hotel. The project balanced preservation of architectural heritage with modern hospitality requirements.</p>
+                            
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Restoration of original facade and architectural details</li>
+                                <li>42 uniquely designed guest rooms and suites</li>
+                                <li>Modern amenities integrated with historical elements</li>
+                                <li>Seismic retrofitting for structural safety</li>
+                                <li>Rooftop terrace with panoramic city views</li>
+                            </ul>
+                            
+                            <h3>Construction Highlights</h3>
+                            <p>The renovation required specialized craftsmanship to restore ornate plasterwork, woodcarving, and stained glass elements. Modern systems including HVAC, plumbing, and electrical were carefully integrated to minimize impact on historical features while meeting current building codes and comfort standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Urban Loft Conversion Project Details -->
+            <div id="project-urban" class="project-detail-item">
+                <div class="close-detail">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-images">
+                        <div class="main-image">
+                            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Urban Loft Conversion">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Urban Loft Kitchen">
+                            <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Urban Loft Living Room">
+                            <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Urban Loft Bedroom">
+                        </div>
+                    </div>
+                    <div class="detail-info">
+                        <h2>Urban Loft Conversion</h2>
+                        <p class="detail-category">Warehouse to Residential Transformation</p>
+                        <div class="detail-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Arts District, Downtown</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Completed: February 2023</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>Area: 28,000 sq ft</span>
+                            </div>
+                        </div>
+                        <div class="detail-description">
+                            <h3>Project Overview</h3>
+                            <p>The Urban Loft Conversion project transformed a century-old industrial warehouse into 18 luxury residential lofts. The design preserved the building's industrial character while creating contemporary living spaces with modern amenities.</p>
+                            
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Open floor plans with 14-foot ceilings and exposed structural elements</li>
+                                <li>Energy-efficient windows that maintain the original industrial aesthetic</li>
+                                <li>Rooftop garden with community gathering spaces</li>
+                                <li>Ground floor retail and art gallery spaces</li>
+                                <li>Preserved original brick walls and timber beams</li>
+                            </ul>
+                            
+                            <h3>Construction Highlights</h3>
+                            <p>The conversion required extensive structural reinforcement while preserving the building's historic character. New mechanical, electrical, and plumbing systems were integrated within the existing structure, requiring innovative solutions to maintain the loft aesthetic while meeting modern building codes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>ROHANA<span>CONSTRUCTION</span></h2>
+                    <p>Building excellence, one project at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> No 109 , Alukatiya new colony ,Near the boodiya, Ratnahangamuwa, Ratnapura</p>
+                    <p><i class="fas fa-phone"></i> 077 6070 652 </p>
+                    <p><i class="fas fa-envelope"></i> rohananishantha91@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Rohana Construction. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Chat Button -->
+    <a href="https://wa.me/+94776070652?text=I'm%20interested%20in%20your%20construction%20services" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
